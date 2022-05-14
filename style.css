@@ -261,11 +261,13 @@ h5 {
     border-radius: 39px;
     padding: 19px 39px;
 }
-.email-container{
-    display:flex;
+
+.email-container {
+    display: flex;
     align-items: center;
 }
-.email-container button{
+
+.email-container button {
     margin-top: 0;
 }
 
@@ -295,4 +297,279 @@ h2 {
     line-height: 25px;
     letter-spacing: 0.2px;
     color: #374754;
+}
+
+.clients {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #374754;
+    margin-bottom: 15px;
+}
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 40px;
+    position: static;
+    width: 273px;
+    height: 163px;
+    left: 0px;
+    top: 1px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+
+}
+
+.clients-container {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+.partners {
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    position: static;
+    justify-content: center;
+}
+
+.calendars {
+    display: flex;
+    text-align: center;
+    position: static;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    justify-content: center;
+}
+
+.button-class {
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.most-pricing {
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.most-logo {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.back {
+    background-color: #252B42;
+    margin: 0 auto;
+}
+
+.intro-border {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 21px;
+
+    width: 1105px;
+    height: 693px;
+
+}
+
+.tarifs-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 21px;
+    width: 1105px;
+}
+
+.border {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    position: static;
+    width: 335px;
+    height: 607px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.free {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.organize {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.pricing-box {
+    left: 7.75%;
+    right: 7.75%;
+    top: 20.83%;
+    bottom: 20.83%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.zero {
+    width: 55px;
+    height: 84px;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.standart-logo {
+    width: 113px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.border-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 83px 40px;
+    gap: 30px;
+    width: 335px;
+    height: 693px;
+    background: #2091F9;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.organaize-logo {
+    width: 148px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.pricing-logo {
+    width: 95px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.button-box {
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    background: #ffffff;
+    border-radius: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #01a2ff;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.bussines-logo {
+    width: 104px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.organaize-box {
+    width: 148px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.button-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 38px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #2091F9;
+    border-radius: 35px;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 90px;
 }
