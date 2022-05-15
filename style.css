@@ -588,21 +588,7 @@ h2 {
     border-radius: 39px;
 }
 
-.text {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 19px 20px;
-    gap: 47px;
-    width: 353px;
-    height: 54px;
-    background: #F5F5F5;
-    border: 1px solid #E8E8E8;
-    border-radius: 39px;
-}
-
-.email {
+.input-contact {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -617,12 +603,32 @@ h2 {
 }
 
 .contact-us {
-
+    margin: 0 auto;
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252B42;
+
+}
+
+.contact-us-main {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.most-calendars-main {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
 
 }
 
@@ -670,4 +676,42 @@ h2 {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+}
+
+.footer {
+    
+    background-color: #252B42 
+}
+
+.footer-container{
+    display: grid;
+    margin: 0 auto;
+  width: 1200px;
+  grid-template-areas: 
+  "h n c";
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.main-ul li{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.footer-list-1{
+    grid-area: h;
+}
+.footer-list-2{
+    grid-area: n;
+}
+.footer-list-3{
+    grid-area: c;
 }
