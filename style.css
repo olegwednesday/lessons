@@ -679,16 +679,18 @@ h2 {
 }
 
 .footer {
-    
-    background-color: #252B42 
+    margin-right: 100px;
+    margin-left: 100px;
+    background: #252B42;
 }
 
-.footer-container{
+.footer-container {
+    margin-right: 390px;
     display: grid;
     margin: 0 auto;
-  width: 1200px;
-  grid-template-areas: 
-  "h n c";
+    width: 1200px;
+    grid-template-areas:
+        "h n c t";
 }
 
 .heading {
@@ -698,7 +700,8 @@ h2 {
     letter-spacing: 0.1px;
     color: #FFFFFF;
 }
-.main-ul li{
+
+.main-ul li {
     margin-top: 16px;
     font-weight: 400;
     font-size: 15px;
@@ -706,12 +709,48 @@ h2 {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-.footer-list-1{
+
+.footer-list-1 {
     grid-area: h;
 }
-.footer-list-2{
+
+.footer-list-2 {
     grid-area: n;
 }
-.footer-list-3{
+
+.footer-list-3 {
     grid-area: c;
+}
+
+.footer-list-4 {
+    grid-area: t;
+}
+.information-grid{
+    margin-right: 220px;
+}
+
+.geolocation {
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.phone-information{
+    margin-top: 29.5px;
+}
+
+.phone-number {
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.icon-corispondent{
+    margin-top: 45px;
+    max-width: 171px;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
 }
