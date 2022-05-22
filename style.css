@@ -109,6 +109,20 @@ h1 {
     margin-bottom: 27px;
 }
 
+@media (max-width: 576px) {
+    h1 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}
+
 h4 {
     font-weight: 400;
     font-size: 28px;
@@ -144,6 +158,17 @@ header {
     align-items: center;
     margin: 0 auto;
 }
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) and (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    header {
+        display: none;
+    }
+}
+
 
 a {
     text-decoration: none;
@@ -679,16 +704,14 @@ h2 {
 }
 
 .footer {
-    margin-right: 100px;
-    margin-left: 100px;
+    padding: 150px 0px;
     background: #252B42;
 }
 
 .footer-container {
-    margin-right: 390px;
     display: grid;
     margin: 0 auto;
-    width: 1200px;
+    width: 80%;
     grid-template-areas:
         "h n c t";
 }
@@ -725,9 +748,6 @@ h2 {
 .footer-list-4 {
     grid-area: t;
 }
-.information-grid{
-    margin-right: 220px;
-}
 
 .geolocation {
     margin-left: 20px;
@@ -736,7 +756,8 @@ h2 {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-.phone-information{
+
+.phone-information {
     margin-top: 29.5px;
 }
 
@@ -747,7 +768,8 @@ h2 {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-.icon-corispondent{
+
+.icon-corispondent {
     margin-top: 45px;
     max-width: 171px;
     flex-grow: 2;
