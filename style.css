@@ -598,6 +598,9 @@ h2 {
     margin: 0 auto;
     margin-top: 90px;
 }
+.container-contact-form{
+    flex-direction: row;
+}
 
 .your-name {
     box-sizing: border-box;
@@ -671,6 +674,21 @@ h2 {
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 20px;
 
+}
+
+.right-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    width: 725px;
+    height: 612.17px;
+}
+
+.card-contact-form {
+    justify-content: space-around;
 }
 
 .message {
