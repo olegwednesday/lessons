@@ -164,9 +164,9 @@ header {
 @media (max-width: 768px) and (min-width: 576px) {}
 
 @media (min-width: 768px) {
-    header {
+    /* header {
         display: none;
-    }
+    } */
 }
 
 
@@ -268,9 +268,24 @@ h5 {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 80px;
     height: 725px;
+}
+
+.button-subscribe{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 172px;
+    height: 58px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .right-container {
@@ -285,6 +300,9 @@ h5 {
     border: 1px solid #E8E8E8;
     border-radius: 39px;
     padding: 19px 39px;
+    min-width: 273px;
+    height: 54px;
+    margin-right: 12px;
 }
 
 .email-container {
@@ -297,7 +315,6 @@ h5 {
 }
 
 h3 {
-    max-width: 174px;
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -307,7 +324,6 @@ h3 {
 }
 
 h2 {
-    max-width: 324px;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -316,7 +332,6 @@ h2 {
 }
 
 .paragraphe {
-    max-width: 301px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -364,18 +379,19 @@ h2 {
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
-    position: static;
     justify-content: center;
+    margin-bottom: 27px;
 }
 
 .calendars {
     display: flex;
     text-align: center;
     position: static;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 28px;
     line-height: 40px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .button-class {
@@ -398,6 +414,7 @@ h2 {
 
 .most-pricing {
     margin-top: 200px;
+    padding: 110px;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -413,6 +430,7 @@ h2 {
     text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    margin-bottom: 100px;
 }
 
 .back {
@@ -436,12 +454,13 @@ h2 {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 0px;
+    padding-bottom: 100px;
+    margin-bottom: 202px;
     gap: 21px;
     width: 1105px;
 }
 
-.border {
+.tarifs-box {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -456,21 +475,21 @@ h2 {
     border-radius: 10px;
 }
 
-.free {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0.1px;
-    color: #252B42;
+.box-height{
+    height: 693px;
+    background-color: #2091F9;
+    padding-top: 83px;
 }
 
-.organize {
+.organize-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.1px;
     color: #374754;
+    max-width: 148px;
+    margin-top: 5px;
 }
 
 .pricing-box {
@@ -495,29 +514,12 @@ h2 {
     color: #252B42;
 }
 
-.standart-logo {
-    width: 113px;
-    height: 28px;
+.tarrifs-heading{
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.1px;
-    color: #FFFFFF;
-}
-
-.border-box {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 83px 40px;
-    gap: 30px;
-    width: 335px;
-    height: 693px;
-    background: #2091F9;
-    border: 1px solid #DEDEDE;
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
+    color: #252B42;
 }
 
 .organaize-logo {
@@ -529,6 +531,12 @@ h2 {
     text-align: center;
     letter-spacing: 0.1px;
     color: #FFFFFF;
+}
+
+.pricing-feature p{
+    padding: 10px;
+    font-size: 15px;
+    line-height: 28px;
 }
 
 .pricing-logo {
@@ -559,15 +567,23 @@ h2 {
     margin-top: 90px;
 }
 
-.bussines-logo {
-    width: 104px;
-    height: 28px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0.1px;
-    color: #252B42;
+.white{
+    color: white;
+}
 
+.button-tarrifs{
+    background: #2091F9;
+    color: white;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: 1228px;
+    margin: 0 auto;
+    margin-bottom: 102px;
 }
 
 .organaize-box {
@@ -586,7 +602,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 18px 38px;
-
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -651,13 +666,13 @@ h2 {
 
 .most-calendars-main {
     margin-top: 27px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 28px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.2px;
     color: #374754;
-
+    margin-bottom: 50px;
 }
 
 .border-us {
@@ -677,19 +692,38 @@ h2 {
 }
 
 .right-container {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 50px;
     width: 725px;
-    height: 612.17px;
+    margin-left: 50px;
 }
 
-.card-contact-form {
-    justify-content: space-around;
+.icon-container{
+    display: flex;
+    align-items: center;
 }
+
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 108px;
+    max-width: 230px;
+    margin: 3px;
+}
+
+.contact-icon p{
+    margin: 3px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 23px;
+    color: #374754;
+    text-align: center;
+}
+
 
 .message {
     box-sizing: border-box;
