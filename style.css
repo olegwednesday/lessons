@@ -457,7 +457,7 @@ h2 {
     padding-bottom: 100px;
     margin-bottom: 202px;
     gap: 21px;
-    width: 1105px;
+    min-width: 1105px;
 }
 
 .tarifs-box {
@@ -467,7 +467,7 @@ h2 {
     align-items: center;
     padding: 40px;
     position: static;
-    width: 335px;
+    min-width: 335px;
     height: 607px;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -503,15 +503,32 @@ h2 {
     letter-spacing: 0.2px;
     color: #252B42;
 }
+.flex {
+    display: flex;
+    align-items:center;
+    margin: 20px 0;
+}
 
-.zero {
-    width: 55px;
-    height: 84px;
+.amount {
     font-weight: 700;
     font-size: 74px;
     line-height: 84px;
     letter-spacing: 0.2px;
     color: #252B42;
+}
+ 
+.dollar {
+    font-weight: 700;
+    font-size: 20px;
+    color: #252B42;
+}
+
+.per-month {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: #374754;
 }
 
 .tarrifs-heading{
