@@ -370,6 +370,14 @@ h2 {
     max-width: 1075px;
     margin: 0 auto;
 }
+@media (max-width: 756px) {
+    .client-container {
+        display: column;
+    }
+    .delete{
+        display: none;
+    }
+}
 
 .partners {
     display: flex;
