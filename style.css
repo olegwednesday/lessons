@@ -211,6 +211,13 @@ nav {
     margin: 0 auto;
 }
 
+@media(max-width:576px){
+    .features{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 h5 {
     font-weight: 700;
     font-size: 20px;
@@ -368,13 +375,19 @@ h2 {
     align-items: center;
     padding: 0px;
     max-width: 1075px;
+    width: 90%;
     margin: 0 auto;
 }
 @media (max-width: 756px) {
-    .client-container {
-        display: column;
+    .clients-container {
+        flex-direction: column;
     }
-    .delete{
+    .mobile-hide{
+        display: none;
+    }
+}
+@media (min-width:600px) and (max-width:1500px){
+    .hide-ipad{
         display: none;
     }
 }
@@ -595,7 +608,7 @@ h2 {
     letter-spacing: 0.2px;
     color: #01a2ff;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .white{
@@ -612,9 +625,18 @@ h2 {
     flex-direction: row;
     align-items: center;
     gap: 50px;
-    width: 1228px;
+    max-width: 1228px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 102px;
+}
+@media(max-width:756px){
+    .contact-form{
+        flex-direction: column-reverse;
+    }
+    .mobile-hide{
+        display: none;
+    }
 }
 
 .organaize-box {
@@ -732,11 +754,18 @@ h2 {
     margin-left: 50px;
 }
 
+
 .icon-container{
     display: flex;
     align-items: center;
 }
 
+@media(max-width:756px){
+.icon-container{
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
 .contact-icon{
     display: flex;
     flex-direction: column;
@@ -746,6 +775,17 @@ h2 {
     margin: 3px;
 }
 
+@media(max-width:756px){
+    .contact-icon{
+        flex-direction: row;
+        width: 90%;
+        max-width: none;
+    }
+    .contact-icon img{
+        margin-right: 10px;
+    }
+    }
+
 .contact-icon p{
     margin: 3px;
     font-weight: 300;
@@ -754,6 +794,12 @@ h2 {
     color: #374754;
     text-align: center;
 }
+@media(max-width:756px){
+    .contact-icon p{
+text-align: left;
+    }
+}
+
 
 
 .message {
